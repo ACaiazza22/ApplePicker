@@ -3,8 +3,16 @@ using System.Collections;
 
 public class AppleTree : MonoBehaviour {
 
+	public GameObject applePrefab;
+	public float speed = 1f;
+	public float leftAndRightEdge = 10f;
+	public float chanceToChangeDirections = 0.1f;
+	public float secondsBetweenAppleDrops = 1f;
+
+
 	// Use this for initialization
 	void Start () {
+		
 	
 	}
 	
